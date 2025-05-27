@@ -2,7 +2,7 @@ const Todo = require('../model/todo.model');
 
 async function getData(req, res) {
   try {
-    const userId=req.params.userId;
+    const userId = req.decoded.user.userId;
     if (!userId) {
       return res.status(400).json({
         success: false,
