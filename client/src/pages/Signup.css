@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f0ff; /* Light Lavender */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  background-color: #ffffff; 
+  background-image: url('../assets/image.jpg');/* White background for the form */
+  padding: 48px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 420px;
+}
+
+.signup-container h2 {
+  color: #5e3485; /* Deep Purple */
+  font-size: 30px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #c59ff4; /* Soft Lavender */
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #f9f5ff; /* Light pastel fill */
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #a678e2;
+  box-shadow: 0 0 5px #b98af2;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #a678e2; /* Lavender button */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #c084f1; /* Lighter violet on hover */
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #6c3ac9; /* Violet text */
+}
